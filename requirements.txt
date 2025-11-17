@@ -1,0 +1,38 @@
+ANALISIS Y REQUISITOS DEL SISTEMA
+
+- El problema a resolver con el sistema es reducir el tiempo de registro de los productos, registro en las ventas y el control de inventario.
+
+- los usuarios que lo utilizaran son los administradores de la tienda, pero lo ideal es escalarlo para que admita perfiles que solo los administradores podan agregar
+- Funcionalidades
+
+. Iniciar sección
+. Control de Usuarios (solo Administrador)-- Tabla
+  . Agregar
+  . Actualizar
+  . Eliminar
+    . TABLA
+    iD,NOMBRE,CONTRASEÑA,CARGO
+
+. Control de productos (Accedido para todos)-- 
+  .Agregar
+  .Eliminar 
+  .Actualizar 
+  .Buacar
+  	. TABLA
+	ID,NOMBRE,PCOMPRA,PRECIOVENTA,CANT,TIPO,proveedor
+
+. Control de ventas
+  . Agregar
+  . Actualizar
+  . Eliminar venta
+  . BUSCAR 
+	. TABLA
+	ID,FECHA,IDPRO,NOMBRE,CANT,PRECIOU,TOTAL,DESCU.
+.control de gastos
+  . Agregar
+  . Eliminar 
+  . Actualizar
+  . Buscar
+ 	TABLA
+	.ID,NUMFACT,PRODUCTO,CANT,TOTAL,TIPO	
+	

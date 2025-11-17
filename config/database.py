@@ -16,4 +16,3 @@ def connection_database():
     except Exception as e:
         print("Error:", e)
 
-connection_database()
